@@ -103,14 +103,14 @@ INSERT INTO SpotifyClone.musica (musica_nome, album_id, tempo_segundos)
 VALUES ('Soul For Us',1 , 200), ('Reflections Of Magic',1, 163), ('dance with her own',1, 116),
  ('Troubles of My inner fire',2, 203), ('Time Fireworks',2, 152), ('Magic Circus',3, 105),
 ('Honey, so do I',3, 207), ('Sweetie, Lets Go Wild',3, 139),
- ('She Knows',3, 224), ('Fantasy For Me',4, 100), ('Celebration Of More',4, 146), 
+ ('She Knows',3, 244), ('Fantasy For Me',4, 100), ('Celebration Of More',4, 146), 
 ('Rock His Everything',4, 223), ('Home Forever',4, 231), ('Diamond Power',4, 241),
  ('Lets Be Silly',5, 132), ('Thang Of Thunder',5, 240), 
 ('Words Of Her Life',6, 185), ('Without My Streets',6, 176), ('Need Of The Evening',6, 190),
  ('History Of My Roses',7, 222), ('Without My Love',7, 111), 
 ('Walking And Game',7, 123), ('Young And Father',7, 197), ('Finding My Traditions',8, 179),
  ('Walking And Man',8, 229), ('Hard And Time',8, 135), 
-('Honey, Im A Lone Wolf',8, 250), ('she thinks i wont stay tonight',9, 166),
+('Honey, Im A Lone Wolf',8, 150), ('she thinks i wont stay tonight',9, 166),
  ('He Heard Youre Bad For Me',9, 154),
  ('He Hopes We Cant Stay',9, 210), ('I Know I Know',9, 117), 
 ('Hes Walking Away',10, 159), ('Hes Trouble',10, 138), ('I Heard I Want To Bo Alone',10, 120), ('I Ride Alone',10, 151), 
@@ -134,9 +134,10 @@ VALUES (1, 1), (1, 2), (1, 3), (2, 4), (2, 5),
 (10, 36), (10, 37), (10, 38), (10, 39), (10, 40);
 
 INSERT INTO SpotifyClone.musica_historico (musica_id, historico_id, usuario_id)
-VALUES (1, 1 , 1), (2, 2 , 1), (3, 3, 1),(4, 4, 2), (5, 5, 2), (6, 6 ,2), (7, 7 ,2),
- (8, 8 ,3), (9, 9 ,3), (10, 10 ,3), (11, 11 , 4), (12, 12 ,4), (13, 13 ,4),
- (14, 14 ,4), (15, 15 ,5), (16, 16 ,5), (17, 17 ,5), (18, 18 ,6), (19, 19 ,6), (20, 20 ,7),
-(21, 21 ,8), (22, 22 ,8), (23, 23 ,8), (24, 24 ,9), (25, 25 , 9),(26, 26 ,9), (27, 27 ,10), (28, 28, 10),
- (29, 29 ,10), (9, 30 ,10), (30, 31, 9),(31, 32 , 9), (32, 33 ,9),
- (33, 34 ,9), (34, 35 ,8), (35, 36 , 8),(36, 37 ,8), (37, 38 ,8);
+VALUES (1, 19 , 5), (2, 13 , 4), (3, 11, 3),(4, 25, 7), (5, 24, 7), (6, 10 ,3), (7, 16 ,5),
+ (8, 33 ,9), (9, 34 ,9), (11, 26 , 7), (12, 17 ,5), (12, 37 ,10),
+ (13, 38 ,10), (14, 4 ,1), (14, 18 ,5), (15, 5 ,1), (16, 31 ,9), (17, 32 ,9), (20, 35 ,10),
+(21, 8 ,2), (21, 36 ,10), (22, 23 ,6), (23, 3 ,1), (24, 7 , 2),(25, 2 ,1), (26, 12 ,3), (27, 15, 4),
+ (29, 21 ,6), (30, 22 ,6), (32, 29, 8),(33, 30 , 8), (34, 6 ,2),
+ (35, 14 ,4), (36, 1 ,1), (38, 20 , 6),(39, 9 ,2), (39, 27 ,8) , (40, 28 ,8);
+ 
