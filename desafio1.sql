@@ -1,4 +1,5 @@
 CREATE DATABASE SpotifyClone;
+USE SpotifyClone;
 CREATE TABLE SpotifyClone.plano(
     plano_id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(45) NOT NULL,
