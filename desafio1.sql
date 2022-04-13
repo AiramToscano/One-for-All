@@ -71,7 +71,7 @@ CREATE TABLE album_musica (
     FOREIGN KEY (musica_id) REFERENCES musica (musica_id)
 );
 INSERT INTO SpotifyClone.plano (nome, valor_plano)
-VALUES ('gratuito', 0), ('familiar', 7.99), ('universitario', 5.99), ('pessoal', 6.99);
+VALUES ('gratuito', '0'), ('familiar', '7.99'), ('universitario', '5.99'), ('pessoal', '6.99');
 
 INSERT INTO SpotifyClone.usuarios (usuario, idade, plano_id, data_assinatura)
 VALUES ('Thati', 23, 1, '2019-10-20'), ('Cintia', 35, 2, '2017-12-30'), ('Bill', 20, 3, '2019-06-05'),
@@ -80,7 +80,7 @@ VALUES ('Thati', 23, 1, '2019-10-20'), ('Cintia', 35, 2, '2017-12-30'), ('Bill',
 ('Paul', 46, 2, '2017-01-17');
 
 INSERT INTO SpotifyClone.artista (artista_nome)
-VALUES ('Walter Phonenix'), ('Freedie Shannon'), ('Lance Day') ,('Peter Strong'), 
+VALUES ('Walter Phoenix'), ('Freedie Shannon'), ('Lance Day') ,('Peter Strong'), 
 ('Tyler Isle'), ('Fog');
 
 INSERT INTO SpotifyClone.album (album_nome, ano_lancamento, artista_id)
@@ -131,10 +131,10 @@ VALUES ('Soul For Us',1 , 200), ('Reflections Of Magic',1, 163), ('dance with he
 ('Baby',10, 136), ('You Make Me Feel So',10, 83);
 
 INSERT INTO SpotifyClone.usuario_artista (usuario_id, artista_id)
-VALUES (1, 1), (1, 2), (1, 3), (2, 1), (2, 3),
+VALUES (1, 1), (1, 2), (1, 3), (2, 1), (2, 3), (2,2),
 (3, 4), (3, 1), (5, 5), (5, 6), (6, 6) , (6, 3) , (6, 1)
 , (7, 4), (7, 5), (8, 1), (8, 5) , (9, 6) , (9, 2) , (9, 3)
-, (10, 4) , (10, 6), (10,1);
+, (10, 4) , (10, 6);
 
 INSERT INTO SpotifyClone.album_musica (album_id, musica_id)
 VALUES (1, 1), (1, 2), (1, 3), (2, 4), (2, 5),
