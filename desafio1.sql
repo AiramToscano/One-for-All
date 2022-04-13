@@ -24,6 +24,7 @@ CREATE TABLE historico(
      historico_id INT PRIMARY KEY AUTO_INCREMENT,
      historico_nome VARCHAR(45) NOT NULL,
 	 usuario_id INT NOT NULL,
+	 data_reproducao DATE NOT NULL,
   FOREIGN KEY (usuario_id) REFERENCES usuarios (usuario_id)
 );
 
@@ -87,17 +88,29 @@ VALUES ('Envious', '1990', 1) , ('Exuberant', '1993', 1) ,('Hallowed Steam', '19
 ('Incandescent', '1998', 3), ('Temporary Culture', '2001', 2) ,('Library of liberty', '2003', 2) ,('Chained Down', '2007', 5), 
 ('Cabinet of fools', '2012', 5), ('No guarantees', '2015', 5) ,('Apparatus', '2015', 6);
 
-INSERT INTO SpotifyClone.historico (historico_nome, usuario_id)
-VALUES ('Honey', 1), ('Walking And Man', 1), ('Young And Father' ,1) ,('Diamond Power',1), 
-('Lets Be Silly', 1), ('I Heard I Want To Bo Alone',2), ('Finding My Traditions', 2), 
-('Without My Love', 2), ('Baby', 2), ('Magic Circus', 3), ('Dance whith her Own' , 3), ('Hard and time', 3),
- ('Reflections of Magic', 4), ('I ride Alone', 4), ('honey, I alone wolf', 4)
-, ('honey so do I', 5), ('Rock is everything' , 5 ), ('Diamond Power' , 5), ('Soul For Us', 5), ('Wouldnt It Be Nice', 5)
-, ('He Heard Youre Bad For Me', 6), ('He Hopes We Cant Stay' ,6),
- ('Walking And Game', 6), ('Time Fireworks' , 7), ('Troubles Of My Inner Fire' , 7), ('Celebration Of More', 7)
-, ('You Make Me Feel So' , 7), ('He"s Walking Away', 8), ('Hes Trouble', 8), ('Thang Of Thunder' ,8), ('Words Of Her Life' , 8)
-, ('Sweetie, Lets Go Wild', 9), ('She Knows' ,9), ('History Of My Roses', 9), ('Without My Love', 10)
-, ('Rock His Everything', 10), ('Home Forever', 10), ('Home' ,10);
+INSERT INTO SpotifyClone.historico (historico_nome, usuario_id , data_reproducao)
+VALUES ('Honey', 1, '2020-02-28'),('Walking And Man', 1,'2020-02-28'), 
+('Young And Father' ,1,'2020-02-28') ,('Diamond Power',1,'2020-02-28'), 
+('Lets Be Silly', 1,'2020-02-28'), ('I Heard I Want To Bo Alone',2,'2020-02-28'),
+ ('Finding My Traditions', 2,'2020-02-28'), 
+('Without My Love', 2,'2020-02-28'), ('Baby', 2,'2020-02-28'),
+ ('Magic Circus', 3,'2020-02-28'), ('Dance whith her Own' , 3,'2020-02-28'),
+ ('Hard and time', 3,'2020-02-28'),
+ ('Reflections of Magic', 4,'2021-02-28'), ('I ride Alone', 4,'2021-02-28'),
+ ('honey, I alone wolf', 4,'2021-02-28')
+, ('honey so do I', 5,'2020-02-28'), ('Rock is everything' , 5,'2017-02-28' ),
+ ('Diamond Power' , 5,'2020-02-28'), ('Soul For Us', 5,'2020-02-28'),
+ ('Wouldnt It Be Nice', 6,'2019-02-28')
+, ('He Heard Youre Bad For Me', 6,'2017-02-28'), ('He Hopes We Cant Stay' ,6,'2017-02-28'),
+ ('Walking And Game', 6,'2018-02-28'), ('Time Fireworks' , 7,'2018-02-28'),
+ ('Troubles Of My Inner Fire' , 7,'2020-02-28'), ('Celebration Of More', 7,'2018-02-28')
+,('Baby' , 8,'2018-02-28'), ('You Make Me Feel So' , 8,'2020-02-28'),
+('He"s Walking Away', 8,'2019-02-28'),
+ ('Hes Trouble', 8,'2021-02-28'), ('Thang Of Thunder' ,9,'2021-02-28'),
+ ('Words Of Her Life' , 8,'2018-02-28')
+, ('Sweetie, Lets Go Wild', 9,'2021-02-28'), ('She Knows' ,9,'2018-02-28'),
+ ('History Of My Roses', 10,'2017-02-28'), ('Without My Love', 10,'2017-02-28')
+, ('Rock His Everything', 10,'2017-02-28'), ('Home Forever', 10,'2017-02-28');
 
 INSERT INTO SpotifyClone.musica (musica_nome, album_id, tempo_segundos)
 VALUES ('Soul For Us',1 , 200), ('Reflections Of Magic',1, 163), ('dance with her own',1, 116),
@@ -140,4 +153,3 @@ VALUES (1, 19 , 5), (2, 13 , 4), (3, 11, 3),(4, 25, 7), (5, 24, 7), (6, 10 ,3), 
 (21, 8 ,2), (21, 36 ,10), (22, 23 ,6), (23, 3 ,1), (24, 7 , 2),(25, 2 ,1), (26, 12 ,3), (27, 15, 4),
  (29, 21 ,6), (30, 22 ,6), (32, 29, 8),(33, 30 , 8), (34, 6 ,2),
  (35, 14 ,4), (36, 1 ,1), (38, 20 , 6),(39, 9 ,2), (39, 27 ,8) , (40, 28 ,8);
- 
