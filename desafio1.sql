@@ -113,12 +113,12 @@ VALUES ('Honey', 1, '2020-02-28'),('Walking And Man', 1,'2020-02-28'),
 , ('Rock His Everything', 10,'2017-02-28'), ('Home Forever', 10,'2017-02-28');
 
 INSERT INTO SpotifyClone.musica (musica_nome, album_id, tempo_segundos)
-VALUES ('Soul For Us',1 , 200), ('Reflections Of Magic',1, 163), ('dance with her own',1, 116),
- ('Troubles of My inner fire',2, 203), ('Time Fireworks',2, 152), ('Magic Circus',3, 105),
+VALUES ('Soul For Us',1 , 200), ('Reflections Of Magic',1, 163), ('Dance With Her Own',1, 116),
+ ('Troubles Of My Inner Fire',2, 203), ('Time Fireworks',2, 152), ('Magic Circus',3, 105),
 ('Honey, so do I',3, 207), ('Sweetie, Lets Go Wild',3, 139),
  ('She Knows',3, 244), ('Fantasy For Me',4, 100), ('Celebration Of More',4, 146), 
 ('Rock His Everything',4, 223), ('Home Forever',4, 231), ('Diamond Power',4, 241),
- ('Lets Be Silly',5, 132), ('Thang Of Thunder',5, 240), 
+ ("Let's Be Silly",5, 132), ('Thang Of Thunder',5, 240), 
 ('Words Of Her Life',6, 185), ('Without My Streets',6, 176), ('Need Of The Evening',6, 190),
  ('History Of My Roses',7, 222), ('Without My Love',7, 111), 
 ('Walking And Game',7, 123), ('Young And Father',7, 197), ('Finding My Traditions',8, 179),
@@ -153,3 +153,4 @@ VALUES (1, 19 , 5), (2, 13 , 4), (3, 11, 3),(4, 25, 7), (5, 24, 7), (6, 10 ,3), 
 (21, 8 ,2), (21, 36 ,10), (22, 23 ,6), (23, 3 ,1), (24, 7 , 2),(25, 2 ,1), (26, 12 ,3), (27, 15, 4),
  (29, 21 ,6), (30, 22 ,6), (32, 29, 8),(33, 30 , 8), (34, 6 ,2),
  (35, 14 ,4), (36, 1 ,1), (38, 20 , 6),(39, 9 ,2), (39, 27 ,8) , (40, 28 ,8);
+
