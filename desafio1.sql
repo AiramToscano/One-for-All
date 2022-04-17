@@ -91,14 +91,14 @@ VALUES ('Envious', '1990', 1) , ('Exuberant', '1993', 1) ,('Hallowed Steam', '19
 INSERT INTO SpotifyClone.historico (historico_nome, usuario_id , data_reproducao)
 VALUES ('Honey', 1, '2020-02-28'),('Walking And Man', 1,'2020-02-28'), 
 ('Young And Father' ,1,'2020-02-28') ,('Diamond Power',1,'2020-02-28'), 
-('Lets Be Silly', 1,'2020-02-28'), ('I Heard I Want To Bo Alone',2,'2020-02-28'),
+("Let's Be Silly", 1,'2020-02-28'), ('I Heard I Want To Bo Alone',2,'2020-02-28'),
  ('Finding My Traditions', 2,'2020-02-28'), 
 ('Without My Love', 2,'2020-02-28'), ('Baby', 2,'2020-02-28'),
  ('Magic Circus', 3,'2020-02-28'), ('Dance whith her Own' , 3,'2020-02-28'),
  ('Hard and time', 3,'2020-02-28'),
- ('Reflections of Magic', 4,'2021-02-28'), ('I ride Alone', 4,'2021-02-28'),
- ('honey, I alone wolf', 4,'2021-02-28')
-, ('honey so do I', 5,'2020-02-28'), ('Rock is everything' , 5,'2017-02-28' ),
+ ('Reflections Of Magic', 4,'2021-02-28'), ('I Ride Alone', 4,'2021-02-28'),
+ ("Honey, So Do I", 4,'2021-02-28')
+, ("Honey, I'm A Lone Wolf", 5,'2020-02-28'), ('Rock His Everything' , 5,'2017-02-28' ),
  ('Diamond Power' , 5,'2020-02-28'), ('Soul For Us', 5,'2020-02-28'),
  ('Wouldnt It Be Nice', 6,'2019-02-28')
 , ('He Heard Youre Bad For Me', 6,'2017-02-28'), ('He Hopes We Cant Stay' ,6,'2017-02-28'),
